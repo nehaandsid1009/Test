@@ -16,7 +16,7 @@ public class EntrataWebsiteTests {
     @Before
     public void setUp() {
         // Set up WebDriver
-        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:/Program Files/chromedriver.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
         // Navigate to entrata.com
